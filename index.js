@@ -27,7 +27,7 @@ var randomize = function(array) {
 app.get("/", function(req, res){
   restfulAPI.options
   restfulAPI.request
-  res.render("index")
+  // res.render("index")
 })
 
 
