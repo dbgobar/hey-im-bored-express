@@ -89,7 +89,6 @@ app.delete("/api/events", function(req, res){
   });
 });
 
-
-app.listen(app.get("port"), function () {
-  console.log("THIS WORKS OMG");
+app.listen(app.get("port"), function(){
+  console.log("this WORKS")
 })
